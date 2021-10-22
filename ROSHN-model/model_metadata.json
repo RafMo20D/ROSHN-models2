@@ -1,0 +1,68 @@
+{
+  "action_space" : [ {
+    "steering_angle" : -30.0,
+    "speed" : 1.3333333333333333,
+    "index" : 0
+  }, {
+    "steering_angle" : -30.0,
+    "speed" : 2.6666666666666665,
+    "index" : 1
+  }, {
+    "steering_angle" : -30.0,
+    "speed" : 4.0,
+    "index" : 2
+  }, {
+    "steering_angle" : -15.0,
+    "speed" : 1.3333333333333333,
+    "index" : 3
+  }, {
+    "steering_angle" : -15.0,
+    "speed" : 2.6666666666666665,
+    "index" : 4
+  }, {
+    "steering_angle" : -15.0,
+    "speed" : 4.0,
+    "index" : 5
+  }, {
+    "steering_angle" : 0.0,
+    "speed" : 1.3333333333333333,
+    "index" : 6
+  }, {
+    "steering_angle" : 0.0,
+    "speed" : 2.6666666666666665,
+    "index" : 7
+  }, {
+    "steering_angle" : 0.0,
+    "speed" : 4.0,
+    "index" : 8
+  }, {
+    "steering_angle" : 15.0,
+    "speed" : 1.3333333333333333,
+    "index" : 9
+  }, {
+    "steering_angle" : 15.0,
+    "speed" : 2.6666666666666665,
+    "index" : 10
+  }, {
+    "steering_angle" : 15.0,
+    "speed" : 4.0,
+    "index" : 11
+  }, {
+    "steering_angle" : 30.0,
+    "speed" : 1.3333333333333333,
+    "index" : 12
+  }, {
+    "steering_angle" : 30.0,
+    "speed" : 2.6666666666666665,
+    "index" : 13
+  }, {
+    "steering_angle" : 30.0,
+    "speed" : 4.0,
+    "index" : 14
+  } ],
+  "sensor" : [ "SECTOR_LIDAR", "STEREO_CAMERAS" ],
+  "neural_network" : "DEEP_CONVOLUTIONAL_NETWORK_SHALLOW",
+  "version" : "4",
+  "training_algorithm" : "clipped_ppo",
+  "action_space_type" : "discrete"
+}
